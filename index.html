@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding: 50px 0 5px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+      
+    </header>
+
+    <section class="prices">
+      <form action="">
+        <div class="pricingCard">
+          <span class="pageViews" > 100k PageViews</span>
+          <input class="range" type="range" name="range" min="1" max="5" value="3" step="1">
+          <div class="rangePrice">
+            <span class="price">$16.00</span>
+            <span class="frecuency">/ month</span>
+          </div>
+        </div>        
+
+        <div class="planType">
+          <span>Monthly Billing</span>
+          <div class="toggle">
+            <div class="circle"></div>
+          </div>
+          <span>Yearly Billing</span>
+          <div class="percent">
+            <span>-25%</span> 
+            <span class="discount">discount</span>
+          </div>           
+        </div>        
+      </form>
+    </section>
+
+    <section class="adventages">
+      <div class="checking">
+        <img src="./images/icon-check.svg" alt="Check Icon">
+        <label for="">Unlimited websites</label><br>
+        <img src="./images/icon-check.svg" alt="Check Icon">
+        <label for="">100% data ownership</label><br>
+        <img src="./images/icon-check.svg" alt="Check Icon">
+        <label for="">Email reports</label><br>
+      </div>
+      
+      <input type="submit" value="Start my trial">
+    </section>
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Hualdev">Hualdev</a>.
+    </footer>
+  </main>
+
+  
+</body>
+</html>
