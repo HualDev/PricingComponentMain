@@ -27,16 +27,17 @@
     <section class="prices">
       <form action="">
         <div class="pricingCard">
-          <span class="pageViews" > 100k PageViews</span>
-          <input class="range" type="range" name="range" min="1" max="5" value="3" step="1">
+          <span id="pageViews" class="pageViews" >100k PageViews</span>
+          <input id="range" class="range" type="range" name="range" min="1" max="5" value="3" step="1">
           <div class="rangePrice">
-            <span class="price">$16.00</span>
-            <span class="frecuency">/ month</span>
+            <span id="price" class="price">$16.00</span>
+            <span id="frecuency" class="frecuency">/ month</span>
           </div>
         </div>        
 
-        <div class="planType">
+        <label for="planType" class="planType">
           <span>Monthly Billing</span>
+          <input type="checkbox" name="planType" id="planType">
           <div class="toggle">
             <div class="circle"></div>
           </div>
@@ -45,7 +46,7 @@
             <span>-25%</span> 
             <span class="discount">discount</span>
           </div>           
-        </div>        
+        </label>        
       </form>
     </section>
 
@@ -59,7 +60,7 @@
         <label for="">Email reports</label><br>
       </div>
       
-      <input type="submit" value="Start my trial">
+      <input id="trial" type="submit" value="Start my trial">
     </section>
 
     <footer class="attribution">
@@ -68,6 +69,6 @@
     </footer>
   </main>
 
-  
+  <script src="./pricing.js"></script>
 </body>
 </html>

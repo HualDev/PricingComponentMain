@@ -159,6 +159,10 @@ input[type="range"]::-moz-range-track {
     justify-content: center;
 }
 
+#planType{
+    display: none;
+}
+
 .toggle{
     width: 40px;
     height: 20px;
@@ -168,6 +172,11 @@ input[type="range"]::-moz-range-track {
     align-items: center;
     padding: 5px;
     margin: 0 16px; 
+}
+
+.toggle:hover{
+    background-color: var(--softCyanFullSliderBar);
+    cursor: pointer;
 }
 
 .circle{
@@ -207,7 +216,7 @@ input[type="range"]::-moz-range-track {
     border: none;
     border-radius: 20px;
     padding: 10px 30px;
-    margin: 30px auto;
+    margin: 30px auto;cursor: pointer;
 }
 
 @media(min-width:700px){
@@ -225,7 +234,7 @@ input[type="range"]::-moz-range-track {
     }
 
     .prices{
-        width: 30%;
+        width: 40%;
     }
 
     .pricingCard{
@@ -281,7 +290,7 @@ input[type="range"]::-moz-range-track {
     }
 
     .adventages{
-        width: 30%;
+        width: 40%;
         display: flex;
         text-align: justify;
         line-height: 2;
