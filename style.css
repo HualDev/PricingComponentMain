@@ -224,6 +224,10 @@ input[type="range"]::-moz-range-track {
     margin: 30px auto;cursor: pointer;
 }
 
+.adventages input[type='submit']:hover{
+    color:white;
+}
+
 @media(min-width:700px){
     body{
         background-size: 100% 60%;
